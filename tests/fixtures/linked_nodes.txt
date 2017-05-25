@@ -1,0 +1,24 @@
+type class3 {
+  a: class1
+  b: b
+  c: class1
+  d: class4
+}
+
+type class1 {
+  a: class1
+  b: b
+}
+
+type b {
+  e: class2
+}
+
+type class2 {
+  a: class1
+  c: String
+}
+
+type class4 {
+  f: class3
+}

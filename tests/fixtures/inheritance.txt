@@ -1,0 +1,7 @@
+type class5 {
+  e: String
+  a: Boolean
+  d: String
+  c: String
+  b: String
+}

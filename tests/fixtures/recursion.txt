@@ -1,0 +1,10 @@
+var mongoose = require('mongoose');
+
+var schema = new mongoose.Schema({
+  property_a: {
+    property_a: {
+    }
+  }
+});
+
+module.exports = mongoose.model('Class1', schema);

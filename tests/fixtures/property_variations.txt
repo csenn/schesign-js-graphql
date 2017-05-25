@@ -1,0 +1,49 @@
+enum d {
+  one
+  two
+  3
+  4.5
+}
+
+type class1 {
+  a: Boolean
+  a1: Boolean!
+  a2: [Boolean]
+  a3: [Boolean]
+  a4: ID
+  a5: Boolean
+  a6: Boolean
+  b: String
+  b1: String
+  b2: String
+  b3: String
+  b4: String
+  b5: String
+  c: Float
+  c1: Float
+  c2: Int
+  c3: Int
+  c4: Int
+  c5: Int
+  c6: Int
+  c7: Float
+  c8: Float
+  d: d
+  e: String
+  e1: String
+  e2: String
+  f: f
+  g: class2
+}
+
+type f {
+  a: Boolean
+  f1: f1
+}
+
+type f1 {
+  a: Boolean
+}
+
+type class2 {
+}
